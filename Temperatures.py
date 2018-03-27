@@ -18,12 +18,6 @@ while choice != "Q":
         fahrenheit = float(input("Fahrenheit: "))
         celsius = 5 / 9.0 * (fahrenheit - 32)
         print("Result: {:.2f} C".format(celsius))
-
-        # : Write this section to convert F to C and display the result
-        # Hint: celsius = 5 / 9 * (fahrenheit - 32)
-        # Remove the "pass" statement when you are done. It's a placeholder.
-        # pass
-
     else:
         print("Invalid option")
     print(MENU)
